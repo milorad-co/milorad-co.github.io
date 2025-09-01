@@ -1,14 +1,14 @@
 /* this was stolen from W3Schools btw */
 
 .topnav {
-    background-color: #00B7FF;
+    background-color: #a3f0eb;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #a3f0c5;
     text-align: center;
     padding: 5px 15px;
     text-decoration: none;
