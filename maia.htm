@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Milorad Offical Website</title>
+    <div class="topnav">
+      <a class="active" href="/"><img src="icon.png" alt="Home" style="display: block;width:32px;height:32px;"></a>
+      <a href="software.htm">Software</a>
+      <a href="mastering.htm">Music</a>
+      <a href="guides.htm">Guides</a>
+    </div>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Maia</h1>
+    <p>This is Milorad's terminal installation utility you can use it to install software packages easily off of github or to install Milorad's software <br>
+    <h3>Syantax and usage</h3>
+    <br> to install go to <a href="https://github.com/milorad-co/maia/releases/latest">here</a> and download the latest release (note at the time of writing this only supports linux), and to install run
+    <br><b>#chmod 775 maia
+    <br>#sudo ./maia setup</b><br>
+    where the maia download file is, then it will install itself and can be run with simply typing maia. Milorad software can be installed with by typing<br>
+    <b>#sudo maia install [software name]</b><br>
+    like for Mica you can type<br>
+    <b>#sudo maia install mica</b><br>
+    and mica will be installed to /usr/bin and can be run like any other software.<br>
+    for a help menu type<br>
+    <b>#maia help</b><br>
+    To install from github repos you can type<br>
+    <b>#sudo maia install [user]/[repo]</b><br>
+    <h3>Limitations and notes</h3>
+    We currently only support debian linux and releases have to be packaged in a specific way for MAIA to work and install them, if you have any issues please put an issue on <a href="https://github.com/milorad-co/maia">the github</a> or if you want to be even more helpful try diving into the sphagetti code to fix it!
+</p>    
+  </body>
+</html>
